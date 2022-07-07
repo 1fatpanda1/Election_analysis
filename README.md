@@ -21,3 +21,4 @@ Largest County Turnout: Denver
 As seen in the picture below, Diana Degette won.
 
 ## Election-Audit Summary
+The code used for this election could be used in any election. 
