@@ -23,4 +23,8 @@ As seen in the picture below, Diana Degette won.
 ![results.png](https://github.com/1fatpanda1/Election_analysis/blob/main/Resources/Winner%20results.png)
 
 ## Election-Audit Summary
-The code used for this election could be used in any election. 
+The code used for this election could be used in any election given a few modifications. Assuming the input csv file was similarly organized, the biggest change probably be renaming the location variable names (for organisation) and outputs. For example, if we were tracking the US Presidential election, and we were tracking the states, one would change the largest county/county list variable/dictionary/list names to better match what sort of location we are tracking. Instead of county_options/county_votes/largest_county/etc. for variable and list names, one might choose to rename those state_options/state_votes/winning state, etc. Also, the output section would have to be changed from county (see below image) to state/nation/class or whichever demographic or area we are sorting by.
+![example.png](https://github.com/1fatpanda1/Election_analysis/blob/main/Resources/example.png)
+
+On the otherhand, if our csv inputs were ordered a bit differently, we would have to change which columns we are pointing at to store data as Python is going through each row. For example, maybe our csv file starts with county as the first column instead of Ballot id or there are additional columns, the following code would need to be adjusted such that county_name and candidate_name reference the correct column. 
+![rowcountcode.png](https://github.com/1fatpanda1/Election_analysis/blob/main/Resources/row%20count.png)
