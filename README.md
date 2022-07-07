@@ -29,4 +29,4 @@ The code used for this election could be used in any election given a few modifi
 
 On the otherhand, if our csv inputs were ordered a bit differently, we would have to change which columns we are pointing at to store data as Python is going through each row. For example, maybe our csv file starts with county as the first column instead of Ballot id or there are additional columns, the following code would need to be adjusted such that county_name and candidate_name reference the correct column. 
 
-![rowcountcode.png](https://github.com/1fatpanda1/Election_analysis/blob/main/Resources/row%20count.png)
+![rowcountcode.png](https://github.com/1fatpanda1/Election_analysis/blob/main/Resources/example.png)
